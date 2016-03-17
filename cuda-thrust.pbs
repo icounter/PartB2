@@ -15,6 +15,6 @@ hostname
 # Point to the CUDA Thrust executable to run the job
 echo ">>>> Begin run ..."
 echo ""
-./ cuda-thrust
+./cuda-thrust
 echo ""
 echo ">>>> End run."

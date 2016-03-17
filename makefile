@@ -1,4 +1,3 @@
-
 all:
 	nvcc -o cuda-thrust cuda-thrust.cu
   
