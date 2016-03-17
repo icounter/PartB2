@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -q production
+#PBS -q development
 #PBS -N CUDAThrust
 #PBS -l select=1:ncpus=1:ngpus=1
 #PBS -l place=free
