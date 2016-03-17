@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -q production
 #PBS -N CUDAThrust
-#PBS -l select=1:ncpus=0:ngpus=1
+#PBS -l select=1:ncpus=1:ngpus=1
 #PBS -l place=free
 #PBS -V
 
@@ -15,6 +15,6 @@ hostname
 # Point to the CUDA Thrust executable to run the job
 echo ">>>> Begin run ..."
 echo ""
-./cudathrust
+./cuda-thrust
 echo ""
 echo ">>>> End run."

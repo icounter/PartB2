@@ -1,6 +1,6 @@
 
 all:
-  nvcc -o cuda-thrust cuda-thrust.c
+	nvcc -o cuda-thrust cuda-thrust.cu
   
 clean:
-  rm cuda-thrust
+	rm cuda-thrust
